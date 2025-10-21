@@ -19,10 +19,9 @@ body{
     justify-content: center;
     height: 100%;
     width: 100%;
-    gap: 20px;
-    padding-bottom: 20px;
-    flex-wrap: wrap;
-
+    /* gap: 20px; */
+    /* padding-bottom: 20px; */
+ 
 }
 
 .photo-session{
@@ -214,29 +213,30 @@ font-size: 25px;
 font-weight: bold;
 border: blue;
 border-radius: 2px;
+background-color: rgb(210, 210, 213);
 
 
 
-}
-
-.buttons{
-display: grid;
-margin-top: 12px;
 
 }
 
+
+
+.button-container{
+    height: 100%;
+    padding-top: 100px;
+}
 
 
 .back{
     font-size: 20px;
 }
 
+.button-container{
+    /* padding: 30px; */
+    /* height: 100%; */
 
-
-
-
-
-
+}
 
 
 
@@ -257,8 +257,5 @@ margin-top: 12px;
         flex:1 1 50% ; 
     }
 
-    .buttons{
-     
-        gap: 12px;
-    }
+  
 }
