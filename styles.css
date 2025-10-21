@@ -134,17 +134,22 @@ ul.hobbies li{
 
 ul.hobbies li:nth-child(1){
     background-color: aquamarine;
+    color: rgb(4, 128, 128);
+    
 
     
 }
 ul.hobbies  li:nth-child(2){
     background-color: rgb(229, 255, 0);
+    color: rgb(136, 136, 0);
 }
 ul.hobbies  li:nth-child(3){
     background-color: rgb(243, 157, 157);
+    color: rgb(105, 1, 1);
 }
 ul.hobbies  li:nth-child(4){
     background-color: rgb(231, 228, 230);
+    color: rgb(69, 2, 47) ;
 }
 
 
@@ -169,19 +174,21 @@ ul.dislikes li{
 
 ul.dislikes li:nth-child(1){
     background-color: rgb(81, 0, 255);
-    color: white;
+    color: rgb(255, 255, 255);
 
     
 }
 ul.dislikes  li:nth-child(2){
     background-color: rgb(255, 7, 7);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 ul.dislikes  li:nth-child(3){
     background-color: rgb(0, 255, 13);
+    color: rgb(4, 95, 9);
 }
 ul.dislikes  li:nth-child(4){
     background-color: rgb(0, 221, 255);
+   color: rgb(0, 73, 84);
 }
 
 .hobdis{
@@ -200,6 +207,40 @@ padding-top: 10px;
 }
 
 
+button {
+width: 300px;
+height: 70px;
+font-size: 25px;
+font-weight: bold;
+border: blue;
+border-radius: 2px;
+
+
+
+}
+
+.buttons{
+display: grid;
+margin-top: 12px;
+
+}
+
+
+
+.back{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -213,6 +254,11 @@ padding-top: 10px;
 /* Responsive styles */
 @media (max-width: 600px) {
     .photo-session {
-        flex: 1 1 50%; 
+        flex:1 1 50% ; 
+    }
+
+    .buttons{
+     
+        gap: 12px;
     }
 }

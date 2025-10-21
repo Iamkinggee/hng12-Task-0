@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="form.js" defer></script> -->
+    <link rel="stylesheet" href="formstyles.css">
+</head>
+<body>
+
+   
+
+
+
+
+
+    <div class="container">
+        <h2>Contact me</h2>
+
+        <form id="contactForm">
+
+            <div class="form-group">
+                <input placeholder="Enter Name" type="text" id="name" required>
+                <small class="error-message"></small>
+            </div>
+
+
+            <div class="form-group">
+                <input placeholder="Enter your email" type="email" id="email" required>
+                <p class="error-message"></p>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message" rows="4" placeholder="write your message" required>      
+                </textarea>
+                 <p class="error-message"></p>
+
+            </div>
+
+            <button type="submit">
+                Send 
+            </button>
+            <p id="successMsg"></p>
+
+          
+        </form>
+    </div>
+    </div>
+
+
+
+
+
+<script src="form.js"></script>
+</body>
+</html>
