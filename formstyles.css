@@ -29,6 +29,7 @@ body{
      display: grid;
       justify-content: center;
       align-items: center; 
+        font-family: "Nunito", sans-serif;
 }
 
 
