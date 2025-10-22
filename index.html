@@ -1,59 +1,54 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>HomePage</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Road+Rage&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Profile Card</title>
+     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
+     <nav>
+    <input type="checkbox" id="check" >
+    <label for="check" class="checkbtn">
+<!-- 
+   <i class="fas fa-bars"></i> -->
+   <p class="fas fa-bars">***</p>
+
+    </label>
+     <a href="index.html">
+        <label class="logo">
+            @kinggee
+
+        </label>
+    </a>
+    <ul>
+      <li> <a class="active" href="#">Home</a></li>
+      <li> <a href="/About.html">About Me</a></li>
+      <li> <a href="/Contact.html">Contact</a></li>
   
+    </ul>
+  </nav>
 
-    <div class="page" data-testid="test-profile-card"> 
 
-     
-    
 
-    <figure class="photo-session ">
-        <!-- profile photo -->
 
-        <img src="dp.jpg"  class="image" data-testid="test-user-avatar">
+  <div class="container">
+    <div class="intro one">
+        <div>
+        <h2>Name</h2>
+        <h1>Godsent Oko-ose</h1>
+        </div>
+
+        <div>
+        <h2>Track</h2>
+        <h1>Front-end Development</h1>
+        </div>
        
-    </figure>
-
-
-
-    <div class="button-container">
-        <!-- buttons -->
-         <div class="btn">
-            
-           <a href="About.html">
-             <button>
-                About
-            </button>
-           </a>
-            
-         </div>
-    
-         <div  class="btn">
-            
-            <a href="Contact.html">
-            <button>
-               Contact
-            </button>
-            </a>   
-
-         </div>
-    
-     
-    </div>
-
-
-
     </div>
 
 
@@ -61,17 +56,14 @@
 
 
 
-    <script>
-        function updateUTCTime() {
-            const now = new Date();
-            const utcTime = now.toUTCString().split(' ')[4]; // Extract the time part
-            document.getElementById('utcTime').textContent = utcTime;
-        }
+    <div class="intro">
+        <img src="dp.jpg" class="avatar">
+    </div>
 
-        // Update the time every second
-        setInterval(updateUTCTime, 1000);
-        updateUTCTime(); 
-    </script>
+  </div>
+
+ 
+
 
     
 </body>

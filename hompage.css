@@ -1,0 +1,110 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+     body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* full height of viewport */
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+     
+    }
+
+      .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 90%;
+      max-width: 800px;
+       margin-top: 40px;
+         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+         height: 500px;
+        
+    
+      /* padding: 20px; */
+   
+    }
+
+      .box-one {
+      /* flex: 1;  */
+      height: 200px;
+      background-color: #4a90e2;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+   
+    }
+      .box-two {
+   
+      border-radius: 12px;
+      padding-top: 50px;
+   
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    
+      font-size: 1.5rem;
+      font-weight: bold;
+      
+     
+      gap: 20px;
+    }
+
+
+    .image{
+        width:300px;
+        border-radius: 20px;
+       
+    }
+
+    button{
+        width: 300px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(203, 203, 205);
+        font-weight: bold;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    button:hover{
+        background-color: rgb(57, 57, 237);
+        color: white;
+        transition: 0.4s;
+        /* transition: ease-in; */
+        transform: scale(1.09);
+    }
+
+
+
+/* small screen */
+     @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        width: 80%;
+        height: 650px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      }
+
+      .box-two {
+        padding-top: 60px;
+        margin-top: 20px;
+         /* padding: 20px; */
+        /* box-shadow: 0 4px 10px rgba(0,0,0,0.1); */
+        
+      }
+
+      .image{
+        width:300px;
+      }
+
+    }
