@@ -129,6 +129,12 @@ a.active, a:hover{
 
 }
 
+#utcTime{
+    /* color: green; */
+    font-size: 30px;
+    font: bolder;
+}
+
 
 
 
