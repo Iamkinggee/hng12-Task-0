@@ -45,12 +45,14 @@ label.logo{
 nav ul{
     float: right;
     margin-right: 20px ;
+     cursor: pointer;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+     cursor: pointer;
    
 }
 
@@ -60,7 +62,8 @@ nav ul li a{
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
-    font-weight: bold;
+    font-weight: bolder;
+    cursor: pointer;
     
 }
 

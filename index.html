@@ -32,8 +32,8 @@
     </a>
     <ul>
       <li> <a class="active" href="#">Home</a></li>
-      <li> <a href="/About.html">About Me</a></li>
-      <li> <a href="/Contact.html">Contact</a></li>
+      <li> <a href="about.html">About Me</a></li>
+      <li> <a href="contact.html">Contact</a></li>
   
     </ul>
   </nav>
@@ -52,6 +52,12 @@
         <h2>Track</h2>
         <h1>Front-end Development</h1>
         </div>
+
+
+        <div>
+        <h2>Current UTC Time:</h2>
+       <h1 id="utcTime">Loading...</h1>
+        </div>
        
     </div>
 
@@ -69,6 +75,30 @@
  
 
 
+
+
+
+
+  
+
     </main>
+
+
+    
+
+    <script>
+        function updateUTCTime() {
+            const now = new Date();
+            const utcTime = now.toUTCString().split(' ')[4]; // Extract the time part
+            document.getElementById('utcTime').textContent = utcTime;
+        }
+
+        // Update the time every second
+        setInterval(updateUTCTime, 1000);
+        updateUTCTime(); 
+    </script>
+
+
+
 </body>
 </html>
